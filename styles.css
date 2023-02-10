@@ -1,0 +1,160 @@
+body {
+    background-image: url(images/bg-intro-desktop.png);
+    background-color: hsl(0, 100%, 74%);
+    font-family: "Poppins";
+}
+
+h1 {
+    color: white;
+    font-size: 45px;
+    line-height: 50px;
+}
+
+p {
+    color: white;
+    font-family: "Poppins";
+}
+
+footer {
+    bottom: 0%;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.parent {
+    margin-top: 8%;
+    display: flex;
+}
+
+.left-div {
+    padding: 5% 0% 0% 10%;
+    width: 35%;
+    text-align: left;
+    flex: auto;
+}
+
+.right-div {
+    flex: auto;
+    width: 50%;
+}
+
+.offer-div {
+    color: white;
+    background-color: hsl(248, 32%, 49%);
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    padding: 2%;
+    width: 55%;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 4%;
+}
+
+.signup-box {
+    background-color: white;
+    max-width: 55%;
+    height: 75%;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 4%;
+    margin: auto;
+    margin-left: 10%;
+    padding: 3%;
+}
+
+.input-box {
+    display: block;
+    width: 90%;
+    padding: 3%;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 3%;
+    border-color: rgb(226 211 211);
+    font-family: "Poppins";
+    font-weight: bold;
+}
+
+input[type=text]:focus {
+    outline: 1px solid  hsl(248, 32%, 49%);
+}
+
+.btn {
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    display: block;
+    width: 97%;
+    padding: 3%;
+    border: none;
+    border-radius: 3%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Poppins";
+}
+
+.btn:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+
+#terms {
+    font-size: 10px;
+    text-align: center;
+    color: gray;
+}
+
+@media only screen and (max-width: 500px){
+    body{
+        background-image: url(./images/bg-intro-mobile.png);
+    }
+
+    h1{
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    .parent {
+        margin-top: 50px;
+        display: block;
+    }
+    
+    .left-div {
+        display: block;
+        padding: 0%;
+        margin: auto;
+        text-align: justify;
+        width: 80%;
+    }
+    
+    .offer-div {
+        margin: auto;
+        margin-bottom: 20px;
+        margin-left: 25px;
+        padding: 2%;
+        width: 75%;
+    }
+    
+    .signup-box {
+        max-width: 75%;
+        height: 75%;
+        margin: auto;
+        margin-left: 25px;
+        padding: 3%;
+    }
+
+    .right-div {
+        display: block;
+        margin: auto;
+        margin-left: 5%;
+        width: 100%;
+    }
+}

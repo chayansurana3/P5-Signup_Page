@@ -28,8 +28,8 @@ Users should be able to:
 ![Screenshot-2](./Screenshot-2.png)
 ### Links
 
-- Solution URL: [](https://github.com/chayansurana3/P5-Signup_Page.git)
-- Live Site URL: [](https://chayansurana3.github.io/P5-Signup_Page/)
+- Solution URL: [Click Here](https://github.com/chayansurana3/P5-Signup_Page.git)
+- Live Site URL: [Click Here](https://chayansurana3.github.io/P5-Signup_Page/)
 
 ### Built with
 
@@ -40,6 +40,6 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@chayansurana3](https://www.frontendmentor.io/profile/chayansurana3)
-- Twitter - [@chayan_surana_](https://twitter.com/chayan_surana_)
+- Frontend Mentor - [Profile](https://www.frontendmentor.io/profile/chayansurana3)
+- Twitter - [Profile](https://twitter.com/chayan_surana_)
 

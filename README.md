@@ -24,8 +24,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
+![Screenshot-1](./Screenshot-1.png)
+![Screenshot-2](./Screenshot-2.png)
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
